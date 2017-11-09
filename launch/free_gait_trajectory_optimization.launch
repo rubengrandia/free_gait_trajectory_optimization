@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- If preview should be used -->
+  <arg name="use_preview" default="false"/>
+
+  <node pkg="free_gait_trajectory_optimization"
+        type="free_gait_trajectory_optimization"
+        name="free_gait_trajectory_optimization"
+        output="screen"
+        launch-prefix="">
+    <param name="use_preview" value="$(arg use_preview)" />
+  </node>
+
+</launch>

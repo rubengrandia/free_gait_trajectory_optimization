@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>free_gait_trajectory_optimization</name>
+  <version>0.1.3</version>
+  <description>Execute trajectory optimization with Free Gait.</description>
+  <maintainer email="rgrandia@ethz.ch">Ruben Grandia</maintainer>
+  <license>Proprietary</license>
+  <author email="rgrandia@ethz.ch">Ruben Grandia</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>free_gait_core</depend>
+  <depend>free_gait_ros</depend>
+  <depend>free_gait_action_loader</depend>
+  <depend>kindr</depend>
+  <depend>eigen</depend>
+  <depend>ds_base</depend>
+  <depend>ds_systems</depend>
+  <depend>ds_visual_base</depend>
+  <depend>pointfootleg_visualization</depend>
+  <depend>ds_anymal_visualization</depend>
+  <depend>legged_robot_task_dt</depend>
+  <depend>direct_trajectory_optimization</depend>
+
+  <depend>anymal_beth_sim</depend>
+
+#  <export>
+#    <free_gait_action_loader actions="${prefix}/actions.yaml" />
+#    <free_gait_action_loader collections="${prefix}/collections.yaml" />
+#  </export>
+</package>
