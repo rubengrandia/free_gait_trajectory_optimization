@@ -24,6 +24,7 @@ TO:
 
 SNOPT:
 - [Snopt7.6](https://bitbucket.org/adrlab/snopt_lib) | VersionUpgrade_76
+(headers in /usr/local/include/snopt7; libraries in /usr/local/lib/snopt7)
 
 #### Build
 catkin build free_gait_trajectory_optimization
