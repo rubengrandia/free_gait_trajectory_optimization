@@ -16,7 +16,7 @@ RSL:
 - [free_gait](https://github.com/rubengrandia/free_gait) | dev/trajectory_optimization 
 
 Note:
-For the [rbdl](https://bitbucket.org/leggedrobotics/rbdl) I had to "make install" into /opt/ros/kinetic
+For the [rbdl](https://bitbucket.org/leggedrobotics/rbdl) I had to "make install" into /opt/ros/kinetic. There was probably some issues with overlaying the any_rbdl that was installed by the ANYmal debian package via apt-get .
 
 TO:
 - [c_dynamic_systems](https://bitbucket.org/adrlab/c_dynamical_systems) | free_gait_dev 
